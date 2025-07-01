@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.jmz.mq2data.config.RocketMQConfig;
-import com.jmz.mq2data.jms.Producer;
+import com.jmz.mq2data.mqclient.Producer;
 
 @RestController
 public class TestController {
